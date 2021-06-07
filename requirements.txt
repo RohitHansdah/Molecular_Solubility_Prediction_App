@@ -1,0 +1,12 @@
+certifi==2021.5.30
+joblib==1.0.1
+olefile==0.46
+scikit-learn==0.24.2
+scipy==1.6.3
+sklearn==0.0
+threadpoolctl==2.1.0
+wincertstore==0.2
+streamlit==0.60.1
+pandas==0.25.3
+numpy==1.18.1
+

@@ -37,7 +37,5 @@ if uploaded_file is not None:
     X['AromaticProportion']=df['AromaticProportion']
     # Apply model to make predictions
     prediction = model.predict(X)
-    res=pd.DataFrame()
-    res['logS']=prediction
     st.header('Predicted LogS values')
-    st.write(res)
+    st.write(prediction)

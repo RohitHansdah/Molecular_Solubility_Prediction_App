@@ -23,7 +23,7 @@ In this step Feature Scaling of the data was done.
 
 A **SVR** model was trained using the medical data.
 
-
+![download (2)](https://user-images.githubusercontent.com/44118554/121341415-43f1af80-c93e-11eb-848a-57d8cde317cb.png)
 
 #### Step 5 : Model Prediction and Evaluation :
 

@@ -29,7 +29,7 @@ A **SVR** model was trained using the medical data.
 
 The model predictions were made .**MSE and R-Squared** values were used for evaluation of the model.
 
-
+![Capture](https://user-images.githubusercontent.com/44118554/121341647-7c918900-c93e-11eb-8319-4ec85dc689f3.PNG)
 
 ### Website Link : https://molecular-solubility-streamlit.herokuapp.com/
 

@@ -8,30 +8,22 @@ This app predicts the Solubility (LogS) values of molecules! Data obtained from 
 
 #### Step 1 : Importing Libraries and Dataset : 
 
-Important python libraries used were Scikit-Learn , Pandas , Numpy  and  Streamlit . The Training dataset was obtained from Kaggle website 
-Dataset Link : https://www.kaggle.com/kumar012/hypothyroid?select=hypothyroid.csv
+Important python libraries used were Scikit-Learn , Pandas , Numpy  and  Streamlit . The Training dataset was obtained from the John S. Delaney. ESOL
+Dataset Link : https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv
 
 #### Step 2 : Data Preprocessing : 
 
-In this step the missing values were handled using KNN imputer and unwanted columns from the dataset were removed.
+In this step the missing values in the data were checked.
 
 #### Step 3 : Exploratory Data Analysis :
 
-In this step Feature Scaling , Normalization and Over Sampling(Imbalanced Data) of the data was done.
+In this step Feature Scaling of the data was done.
 
-#### Step 4 : Data Clustering  :
+#### Step 4 : Model Training :
 
-**KNN Clustering algorithm** was used to divide the Data into multiple clusters and the optimal number of clusters was decided using elbow method.
+A **SVR** model was trained  
 
-![download (1)](https://user-images.githubusercontent.com/44118554/121291657-43d5bd80-c906-11eb-9caa-dfa7d9bc0c75.png)
-
-![download](https://user-images.githubusercontent.com/44118554/121291553-16890f80-c906-11eb-9e72-7690169d31d9.png)
-
-#### Step 5 : Model Training :
-
-Each Cluster was trained on **K-Nearest Neighbours Classifier , Naive Bayes Classifier and Support Vector Classifier**.The model with better performance was choosen.
-
-#### Step 6 : Model Prediction and Evaluation and Hyper parameter tuning:
+#### Step 5 : Model Prediction and Evaluation :
 
 The model predictions were made  on the test dataset and  Hyper parameter tuning was done using Grid Search CV .**ROC-AUC** score was used for evaluation of the model.
 

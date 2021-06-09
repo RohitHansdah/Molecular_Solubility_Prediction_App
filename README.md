@@ -2,7 +2,7 @@
 
 ![solubility_logo](https://user-images.githubusercontent.com/44118554/121340010-b6fa2680-c93c-11eb-88d8-46021c06f450.jpg)
 
-This app predicts the Solubility (LogS) values of molecules! Data obtained from the John S. Delaney. ESOL:  Estimating Aqueous Solubility Directly from Molecular Structure. J. Chem. Inf. Comput. Sci. 2004, 44, 3, 1000-1005.
+This app predicts the **Solubility (LogS)** values of molecules! Data obtained from the John S. Delaney. ESOL:  Estimating Aqueous Solubility Directly from Molecular Structure. J. Chem. Inf. Comput. Sci. 2004, 44, 3, 1000-1005.
 
 ### Model Building Steps :
 

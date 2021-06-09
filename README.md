@@ -8,7 +8,7 @@ This app predicts the Solubility (LogS) values of molecules! Data obtained from 
 
 #### Step 1 : Importing Libraries and Dataset : 
 
-Important python libraries used were Scikit-Learn , Pandas , Numpy  and  Streamlit . The Training dataset was obtained from the John S. Delaney. ESOL
+Important python libraries used in the project are Scikit-Learn , Pandas , Numpy  and  Streamlit . The Training dataset was obtained from the John S. Delaney. ESOL
 Dataset Link : https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv
 
 #### Step 2 : Data Preprocessing : 
